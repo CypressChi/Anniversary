@@ -2,7 +2,8 @@ import heroImageUrl from "../assets/hero.png"
 
 const remoteMediaUrls = {
   audio: {
-    finalBgm: ""
+    finalBgm:
+      "https://9c3pgwmohffa2lq3.private.blob.vercel-storage.com/%E5%A5%BD%E4%B9%90%E5%9B%A2-%E6%88%91%E6%8A%8A%E6%88%91%E7%9A%84%E9%9D%92%E6%98%A5%E7%BB%99%E4%BD%A0.flac?vercel-blob-valid-until=1779265826837&vercel-blob-delegation=eyJzdG9yZUlkIjoic3RvcmVfOWMzUEd3TU9IZmZBMkxRMyIsIm93bmVySWQiOiJ0ZWFtX0RlSjRiY3hMc0RONUFwSjhvWlk3Y1ljYyIsInBhdGhuYW1lIjoiKiIsIm9wZXJhdGlvbnMiOlsiZ2V0IiwiaGVhZCJdLCJ2YWxpZFVudGlsIjoxNzc5MzA3MzkzODQxLCJpYXQiOjE3NzkyNjQxOTU0NzB9.gH8pT2tnTDj18sO6Yn5ERvMovOlOcFL6xSiaUZs6B1g&vercel-blob-signature=zNnzGVYQt1umfnUvQWHSnXC3MQQJZpGufbJ8OkZ4JH0"
   },
   cover: "",
   finalPhotos: [],
