@@ -1,53 +1,9 @@
-export const finalPhotos = [
-  { src: "/images/final/final-1.png", alt: "final memory 1" },
-  { src: "/images/final/final-2.png", alt: "final memory 2" },
-  { src: "/images/final/final-3.png", alt: "final memory 3" },
-  { src: "/images/final/final-4.png", alt: "final memory 4" },
-  { src: "/images/final/final-5.png", alt: "final memory 5" },
-  { src: "/images/final/final-6.png", alt: "final memory 6" },
-  { src: "/images/final/final-7.png", alt: "final memory 7" },
-  { src: "/images/final/final-8.png", alt: "final memory 8" },
-  { src: "/images/final/final-9.png", alt: "final memory 9" },
-  { src: "/images/final/final-10.png", alt: "final memory 10" },
-  { src: "/images/final/final-11.png", alt: "final memory 11" },
-  { src: "/images/final/final-12.png", alt: "final memory 12" },
-  { src: "/images/final/final-13.png", alt: "final memory 13" },
-  { src: "/images/final/final-14.png", alt: "final memory 14" },
-  { src: "/images/final/final-15.png", alt: "final memory 15" },
-  { src: "/images/final/final-16.png", alt: "final memory 16" },
-  { src: "/images/final/final-17.png", alt: "final memory 17" },
-  { src: "/images/final/final-18.png", alt: "final memory 18" },
-  { src: "/images/final/final-19.png", alt: "final memory 19" },
-  { src: "/images/final/final-20.png", alt: "final memory 20" },
-  { src: "/images/final/final-21.png", alt: "final memory 21" },
-  { src: "/images/final/final-22.png", alt: "final memory 22" },
-  { src: "/images/final/final-23.jpg", alt: "final memory 23" },
-  { src: "/images/final/final-24.jpg", alt: "final memory 24" },
-  { src: "/images/final/final-25.jpg", alt: "final memory 25" },
-  { src: "/images/final/final-26.jpg", alt: "final memory 26" },
-  { src: "/images/final/final-27.jpg", alt: "final memory 27" },
-  { src: "/images/final/final-28.jpg", alt: "final memory 28" },
-  { src: "/images/final/final-29.jpg", alt: "final memory 29" },
-  { src: "/images/final/final-30.jpg", alt: "final memory 30" },
-  { src: "/images/final/final-31.jpg", alt: "final memory 31" },
-  { src: "/images/final/final-32.jpg", alt: "final memory 32" },
-  { src: "/images/final/final-33.jpg", alt: "final memory 33" },
-  { src: "/images/final/final-34.jpg", alt: "final memory 34" },
-  { src: "/images/final/final-35.jpg", alt: "final memory 35" },
-  { src: "/images/final/final-36.jpg", alt: "final memory 36" },
-  { src: "/images/final/final-37.jpg", alt: "final memory 37" },
-  { src: "/images/final/final-38.jpg", alt: "final memory 38" },
-  { src: "/images/final/final-39.jpg", alt: "final memory 39" },
-  { src: "/images/final/final-40.jpg", alt: "final memory 40" },
-  { src: "/images/final/final-41.jpg", alt: "final memory 41" },
-  { src: "/images/final/final-42.jpg", alt: "final memory 42" },
-  { src: "/images/final/final-43.jpg", alt: "final memory 43" },
-  { src: "/images/final/final-44.jpg", alt: "final memory 44" },
-  { src: "/images/final/final-45.jpg", alt: "final memory 45" },
-  { src: "/images/final/final-46.jpg", alt: "final memory 46" },
-  { src: "/images/final/final-47.jpg", alt: "final memory 47" },
-  { src: "/images/final/final-48.jpg", alt: "final memory 48" }
-]
+import { finalPhotoUrls } from "./mediaUrls"
+
+export const finalPhotos = finalPhotoUrls.map((src, index) => ({
+  src,
+  alt: `final memory ${index + 1}`
+}))
 
 export const finalLetterTitle = "写给你的一封小信"
 

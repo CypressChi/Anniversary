@@ -6,6 +6,7 @@ import {
   finalLetterTitle,
   finalPhotos
 } from "./data/finalLetter"
+import { finalBgmUrl } from "./data/mediaUrls"
 import { memories, siteContent } from "./data/memories"
 
 const pages = [
@@ -436,6 +437,13 @@ onBeforeUnmount(() => {
     <div class="album-glow album-glow--blue" aria-hidden="true"></div>
     <div class="album-glow album-glow--coral" aria-hidden="true"></div>
 
+    <aside class="landscape-gate" aria-label="横屏观看提示">
+      <div class="landscape-gate__phone" aria-hidden="true">
+        <span></span>
+      </div>
+      <p>请横屏观看</p>
+    </aside>
+
     <div class="album-viewport">
       <div class="album-track">
         <section class="album-page cover-page" aria-label="封面页">
@@ -522,7 +530,7 @@ onBeforeUnmount(() => {
         <section class="album-page letter-page" aria-label="信件页">
           <audio
             ref="finalBgmRef"
-            src="/audio/好乐团-我把我的青春给你.flac"
+            :src="finalBgmUrl"
             loop
             preload="auto"
           ></audio>

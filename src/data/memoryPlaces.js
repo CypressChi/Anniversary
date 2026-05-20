@@ -1,10 +1,12 @@
+import { coverImageUrl, videoUrls } from "./mediaUrls"
+
 export const siteContent = {
   cover: {
     kicker: "Happy Anniversary",
     title: "这一年，和你一起走过的地方都在熠熠生辉。",
     lead:
       "我把我们的生活碎片和回忆做在了这个小站里，想让它成为我们回忆的载体，每次打开它，就仿佛过去种种都历历在目。",
-    background: "/photos/anniversary.jpg",
+    background: coverImageUrl,
     backgroundPosition: "58% center",
     backgroundDisplayPosition: "62% center"
   }
@@ -36,8 +38,8 @@ export const memoryPlaces = [
     id: "beijing",
     name: "北京",
     dateLabel: "2025.02 - 2025.06",
-    videoSrc: "/videos/Beijing.mp4",
-    videoPoster: "/photos/anniversary.jpg",
+    videoSrc: videoUrls.beijing,
+    videoPoster: coverImageUrl,
     titleText: `我们在这里相识、相知、相爱。
 
                 感谢当时的自己
@@ -53,8 +55,8 @@ export const memoryPlaces = [
     id: "chengde",
     name: "承德",
     dateLabel: "2025.05",
-    videoSrc: "/videos/Chengde.mp4",
-    videoPoster: "/photos/anniversary.jpg",
+    videoSrc: videoUrls.chengde,
+    videoPoster: coverImageUrl,
     titleText: `我们第一次一起出去旅行。
 
                 那个时候我们还没有那么熟，还在互相摸索，我们的感情还是很含蓄的。
@@ -68,8 +70,8 @@ export const memoryPlaces = [
     id: "taipei",
     name: "台北",
     dateLabel: "2025.12",
-    videoSrc: "/videos/Taipei.mp4",
-    videoPoster: "/photos/anniversary.jpg",
+    videoSrc: videoUrls.taipei,
+    videoPoster: coverImageUrl,
     titleText: `第一次来到了你的家乡，也见到了你的家人。
                 那个时候的我还觉得这里的一切都很新奇，我都小心翼翼的打量着这里。
                 但因为有你在我身边，我很快就适应了这里的一切，也很快就爱上了这里的一切。`,
@@ -81,8 +83,8 @@ export const memoryPlaces = [
     id: "hong-kong",
     name: "香港",
     dateLabel: "2026.04",
-    videoSrc: "/videos/Hongkong.mp4",
-    videoPoster: "/photos/anniversary.jpg",
+    videoSrc: videoUrls["hong-kong"],
+    videoPoster: coverImageUrl,
     titleText: `港珠澳天团的第一站，在这里我们经历了不快，也经历了美好。
                 但是因为有你在，所以不快的部分也都变得不那么糟糕了。
                 我们在这里留下了很多回忆，吃过的东西，去过的地方，都让我觉得很珍贵。`,
@@ -97,8 +99,8 @@ export const memoryPlaces = [
     id: "macau",
     name: "澳门",
     dateLabel: "2026.05",
-    videoSrc: "/videos/Macao.mp4",
-    videoPoster: "/photos/anniversary.jpg",
+    videoSrc: videoUrls.macau,
+    videoPoster: coverImageUrl,
     titleText: `港珠澳天团的最后一站。
                 我们不仅领略了澳门的纸醉金迷，也吃上了路边小店。
                 虽然澳门的面积不大，但我们在这里的经历却是丰富多彩的。`,
@@ -113,8 +115,8 @@ export const memoryPlaces = [
     id: "ulanqab",
     name: "乌兰察布",
     dateLabel: "2026.06",
-    videoSrc: "/videos/Ulanqab.mp4",
-    videoPoster: "/photos/anniversary.jpg",
+    videoSrc: videoUrls.ulanqab,
+    videoPoster: coverImageUrl,
     titleText: `第一次单独出去玩。
                 说想去草原，于是我们来到了乌兰察布。
 
@@ -128,8 +130,8 @@ export const memoryPlaces = [
     id: "nanjing",
     name: "南京",
     dateLabel: "2025.08",
-    videoSrc: "/videos/Nanjing.mp4",
-    videoPoster: "/photos/anniversary.jpg",
+    videoSrc: videoUrls.nanjing,
+    videoPoster: coverImageUrl,
     titleText: `这里给我印象最深的是南博，扣扣脑袋。
                 还有昀瑾的鸭血粉丝没有鸭血，嘿嘿嘿。`,
     coordinates: [32.0603, 118.7969],
@@ -140,8 +142,8 @@ export const memoryPlaces = [
     id: "shanghai",
     name: "上海",
     dateLabel: "2025.07",
-    videoSrc: "/videos/Shanghai.mp4",
-    videoPoster: "/photos/anniversary.jpg",
+    videoSrc: videoUrls.shanghai,
+    videoPoster: coverImageUrl,
     titleText: `昀瑾为了能够和我多见一下面，还专门选了个上海的实习，我们才能如愿在这里见面。
                 每天都接昀瑾下班，想想就好怀念那个时候的生活呀，我们可以每天都见面。`,
     coordinates: [31.2304, 121.4737],
